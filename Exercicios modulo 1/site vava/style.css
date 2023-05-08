@@ -16,7 +16,7 @@
 
 
     body{
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.63), rgba(250, 194, 42, 0.575))
+        background-image:url(02105704740208.webp)
     
     }
     header{
@@ -31,28 +31,39 @@
     }
 
     header > h1{
+        
 
 
     }
 
     header > p {
 
-        color: black
+
+        color: rgb(14, 13, 13)
+        
     }
+
 
 
             
             
     nav{
     padding: 5px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-    background-color: orange
+    box-shadow: 0px 7px 7px rgba(44, 44, 44, 0.527);
+    background-color: rgb(112, 112, 112)
     
    
    
 }
 
     nav > p {
+
+
+    }
+
+    nav.div{
+
+        
 
 
     }
