@@ -16,7 +16,11 @@
 
 
     body{
-        background-image:url(02105704740208.webp)
+        background-image: url(02105704740208.webp)
+    
+
+
+        
     
     }
     header{
@@ -24,22 +28,19 @@
             font-family: ;
             font-size: 20px;
             padding: 60px;
-            color: rgb(3, 3, 3);
-            background-color: rgba(255, 255, 255, 0.541);
+            
             text-align: center;
             box-shadow: 1px 14px 3px -4px rgba(0, 0, 0, 0.651);
     }
 
     header > h1{
-        
+              color:      
 
 
     }
 
     header > p {
-
-
-        color: rgb(14, 13, 13)
+        color: rgb(27, 27, 27)
         
     }
 
@@ -48,22 +49,27 @@
             
             
     nav{
-    padding: 5px;
+        
+    padding: 10px;
     box-shadow: 0px 7px 7px rgba(44, 44, 44, 0.527);
-    background-color: rgb(112, 112, 112)
+    background-color: rgb(243, 242, 242)
     
    
    
 }
 
+nav > a {
+
+    color: rgb(20, 20, 20);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+
     nav > p {
-
-
-    }
-
-    nav.div{
-
-        
 
 
     }
