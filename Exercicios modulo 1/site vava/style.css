@@ -127,20 +127,28 @@ nav > a {
         background-color: var(--cor05);
     }
 
+
     main img{
        
      max-width: 150px;
      display: block;
-     margin: auto;
-     
+     margin: auto; }
+
+
+    aside > p {
+
+        font-family: var(--fontdestaque);
+        text-align: center;
+        
+
     }
 
-    
-
-   
-
-    aside{
-
+    aside h3{
+        padding: 10px;
+        box-shadow: 0px 11px 3px 0px black;
+        font-family: var(--fontpadrão);
+        text-align: center;
+        background-color: var(--cor05);
     }
 
     footer{
@@ -148,14 +156,21 @@ nav > a {
         font-size: 20px;
         background-color: var(--cor03);
         color: rgb(5, 5, 5);
-        padding: 2px;
-        
-        
-
-
-
+        padding: 1px;
         
 
     }
+
+    .desenvolvido{
+        
+        
+        text-align: right;
+    }
+
+    footer > p {
+        padding: 0px 0px 10px 0px;
+    }
+
+    
 
 
