@@ -22,6 +22,8 @@
 
     body{
 
+        background-color: url(02105704740208.webp);
+
     
     
 
@@ -106,8 +108,15 @@ nav > a {
 
 
     main > article> p {
-        text-align: justify;
         font-family: var(--fontdestaque);
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1em;
+        line-height: 2em;
+    
+        text-align: justify;
+        
         
     }
 
