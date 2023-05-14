@@ -121,6 +121,7 @@ nav > a {
         text-indent: 30px;
         font-size: 1em;
         line-height: 2em;
+        font-weight: bold;
         
        
         
@@ -150,7 +151,8 @@ nav > a {
 
         font-family: var(--fontdestaque);
         text-align: center;
-        margin-bottom:100px
+        margin-bottom:100px;
+        font-weight: bold;
     
         
 
@@ -185,6 +187,7 @@ nav > a {
     footer > p {
        text-align: center;
         margin-top: 10px;
+        
         
     }
 
