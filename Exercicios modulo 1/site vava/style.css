@@ -14,6 +14,10 @@
 }
 
 
+
+
+
+
 :root{
     --cor01:#0a0a0a ;
     --cor02: #9e100ec7;
@@ -21,7 +25,8 @@
     --cor04: #DD9A98 ;
     --cor05: rgb(15, 15, 15);
 
-    --fontpadrão:'Bebas Neue', sans-serif; 
+    --fontpadrão:'Bebas Neue', sans-serif;
+    font-size: 18px;
     --fontdestaque: 'Roboto Condensed', sans-serif;
 
 }
@@ -29,11 +34,6 @@
     body{
         font-size:100%;
         background-image: url(02105704740208.webp);
-
-    
-    
-
-
         
     
     }
@@ -44,22 +44,17 @@
             font-family: var(--fontpadrão);
             font-size: 27px;
             padding: 1px;
-            
             text-align: center;
             box-shadow: 0px -7px 4px 4px rgba(0, 0, 0, 0.651);
     }
 
     header > h1{
-        font-family: var(--fontpadrão);
-        color:    
-                
-
-
+        font-family: var(--fontpadrão);   
+        
     }
 
 
     header > p {
-        font-family:
         color: rgb(27, 27, 27)
         
     }
@@ -106,7 +101,6 @@ nav > a {
 
     main > article> h1 {
         font-family: var(--fontpadrão);
-        font-size: 22px;
         text-align: center;
         box-shadow: 0px 11px 3px 0px black;
         background-color: var(--cor05);
@@ -119,7 +113,6 @@ nav > a {
         margin: 15px 170px;
         text-align: center;
         text-indent: 30px;
-        font-size: 1em;
         line-height: 2em;
         font-weight: bold;
         
@@ -131,7 +124,14 @@ nav > a {
     main > article> h2{
         box-shadow: 0px 11px 3px 0px black;
         font-family: var(--fontpadrão);
-        font-size: 22px;
+        text-align: center;
+        background-color: var(--cor05);
+        margin-top: 48px;
+    }
+
+    main > article> h3 {
+        box-shadow: 0px 11px 3px 0px black;
+        font-family: var(--fontpadrão);
         text-align: center;
         background-color: var(--cor05);
         margin-top: 48px;
@@ -151,18 +151,17 @@ nav > a {
 
         font-family: var(--fontdestaque);
         text-align: center;
-        margin-bottom:100px;
+        margin-bottom:10px;
         font-weight: bold;
     
         
 
     }
 
-    aside h3{
+    aside h4{
         padding: 10px;
         box-shadow: 0px 11px 3px 0px black;
         font-family: var(--fontpadrão);
-        font-size: 22px;
         text-align: left;
         background-color: var(--cor05);
         margin-top:48px;
@@ -171,7 +170,6 @@ nav > a {
 
     footer{
         font-family: var(--fontpadrão);
-        font-size: 15px;
         background-color: black;
         color: white;
         padding: 1px;
@@ -182,6 +180,10 @@ nav > a {
     .desenvolvido{
 
         text-transform:right
+    }
+
+    .teste:hover{
+        background-color: red;
     }
 
     footer > p {
